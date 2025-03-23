@@ -1,0 +1,126 @@
+body {
+    background-color: rgba(115, 40, 231, 255);
+}
+
+.Boxbackground {
+    background-image: url(imageprojetSL/fondperso.svg);
+    background-repeat: no-repeat;
+}
+
+.carrousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.carrousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+}
+
+.carrousel {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.carrousel li {
+    flex: 0 0 33.3333%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.carrousel img {
+    width: 100%;
+    height: auto;
+}
+
+.boxperso img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.Personnage {
+    margin-top: -280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+}
+
+.Personnage img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.texteperso {
+    width: 90%;
+    max-width: 400px;
+    margin-top: -70px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    color: blanchedalmond;
+}
+
+.texteperso>p {
+
+    padding: 25px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+span {
+    font-weight: bold;
+}
+
+.youtube {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#BoxBoutonTop {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#BoxBoutonTop img {
+    transform: rotate(-90deg);
+}
+
+#topfooter {
+    width: 100vw;
+    padding: 0;
+    margin-bottom: -4px;
+
+}
+
+.youtube-btn {
+    display: none;
+}
