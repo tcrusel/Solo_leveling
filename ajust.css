@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+.Boxbackground {
+    background-image: url(imageprojetSL/fullscreen.svg);
+}
+
+.Personnage img {
+    margin-top: -300px;
+}
