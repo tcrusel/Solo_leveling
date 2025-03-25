@@ -42,10 +42,11 @@ section:last-of-type h2 {
 }
 
 section:last-of-type article:last-of-type {
-    background-image: url("images_page_histoire/Jin_Woo_S2.png"), url("images_page_histoire/background_image_body_page_histoire.png");
+    background-image: url("images_page_histoire/Jin_Woo_S2.png"), url("images_page_histoire/background_image_body.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 65%, 100% 100%;
     background-position: center center, 0 0;
+    background-color: black, black;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -27,7 +27,7 @@ section:first-of-type h1 {
 }
 
 section:last-of-type {
-    background-image: url("images_page_histoire/Jin_Woo_S1.png"), url("images_page_histoire/background_image_body_page_histoire.png");
+    background-image: url("images_page_histoire/Jin_Woo_S1.png"), url("images_page_histoire/background_image_body.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 40%, 100% 60%;
     background-position: 0px 55px, 0px 0px;
