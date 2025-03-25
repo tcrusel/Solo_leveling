@@ -6,31 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="smallscreenQUETE1.css" media="screen and (max-width: 370px)">
+    <link rel="stylesheet" href="smallscreenQUETE1.css" media="screen and (max-width: 1024px)">
 
     <title>Solo leveling</title>
 </head>
 
 <body>
     <header>
-        <img src=image/logosologif.gif alt="logo-gift" width="30%">
-        <img src=image/logo-barNav.png alt="logo-nav-bar" width="60px" height="60px">
+        <img src=image/logosologif.gif alt="logo-gift" width="90vw">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-btn"></label>
+        <!-- <img src=image/logo-barNav.png alt="logo-nav-bar" width="60px" height="60px"> -->
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">Histoire</a></li>
+                <li><a href="characters.html">Personnages</a></li>
+                <li><a href="#">Rangs chasseurs</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
 
     </header>
 
     <main>
-        <section class="nav">
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">Histoire</a></li>
-                    <li><a href="#">Personnages</a></li>
-                    <li><a href="#">Rangs chasseurs</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </nav>
+        <section class="section-article">
+            <!-- <h2 class="phrase">Arise..., Slayer !</h2> -->
         </section>
-        <h2 class="phrase">Arise..., Slayer !</h2>
+        <section class="section-h2">
+            <h2 class="phrase">Arise..., Slayer !</h2>
+        </section>
         <section>
             <article class="article-histoire">
                 <h2>Histoire</h2>
