@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+body header {
+    background-color: black;
+    width: 360PX;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav {
+    background-image: url(image/image-general-versionMobile.png);
+    height: 222px;
+    width: 360px;
+}
+
+body section nav {
+    background-color: black;
+    opacity: 50%;
+    text-align: right;
+    float: right;
+    width: 35%;
+}
+
+body nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.phrase {
+    color: blue;
+    width: 360px;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.article-histoire {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.article-histoire h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    margin-left: 25px;
+
+}
+
+.article-Personnages {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.article-Personnages h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    margin-right: 25px;
+
+}
+
+.article-Rangs-Chasseurs {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.article-Rangs-Chasseurs h2 {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    margin-left: 30px;
+
+}
