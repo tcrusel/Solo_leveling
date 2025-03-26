@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+}
+
+body main {
+    width: 360px;
+    margin: auto;
+}
+
+body header {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+/* Cache l'input */
+#menu-toggle {
+    display: none;
+}
+
+/* Styles du bouton menu */
+.menu-btn {
+    /* position: fixed; */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(logo-barNav.png) no-repeat center;
+    rotate: none;
+    /* right: 45px; */
+    /* font-size: 20px; */
+    background-size: cover;
+    cursor: pointer;
+    /* color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px; */
+}
+
+/* Styles du menu */
+#menu {
+    width: 30%;
+    display: none;
+    background: #333;
+    opacity: 70%;
+    color: white;
+    padding: 10px;
+    margin-top: 250px;
+    right: 0.1px;
+    text-align: right;
+    position: absolute;
+    /* z-index: 1001; */
+}
+
+#menu ul {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    /* margin-top: 200px; */
+}
+
+#menu ul li {
+    display: flex;
+    padding: 5px 0;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Afficher le menu si la case est cochée */
+#menu-toggle:checked~#menu {
+    display: block;
+}
+
+.section-article {
+    background-image: url(image/image-general-versionMobile.png);
+    height: 222px;
+    width: 360px;
+
+}
+
+.section-h2 {
+    color: blue;
+    width: 360px;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.article-histoire {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.article-histoire h2 {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.article-Personnages {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.article-Personnages h2 {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.article-Rangs-Chasseurs {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.article-Rangs-Chasseurs h2 {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+}
