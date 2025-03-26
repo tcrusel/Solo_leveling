@@ -1,3 +1,144 @@
+:root {
+    --main-color: black;
+    --secondary-color: #C063EF;
+    --text-color: white;
+}
+
+section {
+    background-image: url("images_page_rangs/background_page_rangs_desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-content: space-evenly;
+    justify-items: center;
+    padding: 0%;
+    gap: 0px;
+
+    article {
+        width: 250px;
+        height: 300px;
+    }
+
+    h1 {
+        color: var(--secondary-color);
+        padding: 50px 45px 110px 0px;
+    }
+
+    p {
+        padding: 10px 35px 0px 35px;
+    }
+
+    .image-button {
+        display: none;
+    }
+}
+
+section .article_rang_e {
+    background-image: url("images_page_rangs/hunter_rang_E.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 10px 45px, center;
+    background-size: 90%, 80%;
+
+}
+
+section .article_rang_e:hover {
+    animation: card 2s forwards;
+}
+
+@keyframes card {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+section .article_rang_d {
+    background-image: url("images_page_rangs/hunter_rang_D.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 25px 45px, center;
+    background-size: 90%, 80%;
+}
+
+section .article_rang_d:hover {
+    animation: card 2s forwards;
+}
+
+section .article_rang_c {
+    background-image: url("images_page_rangs/hunter_rang_C.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20px 45px, center;
+    background-size: 90%, 80%;
+}
+
+section .article_rang_c:hover {
+    animation: card 2s forwards;
+}
+
+section .article_rang_b {
+    background-image: url("images_page_rangs/hunter_rang_B.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 30px 50px, center;
+    background-size: 90%, 80%;
+}
+
+section .article_rang_b:hover {
+    animation: card 2s forwards;
+}
+
+section .article_rang_a {
+    background-image: url("images_page_rangs/hunter_rang_A.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20px 40px, center;
+    background-size: 90%, 80%;
+}
+
+section .article_rang_a:hover {
+    animation: card 2s forwards;
+}
+
+section .article_rang_s {
+    background-image: url("images_page_rangs/hunter_rang_S.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20px 40px, center;
+    background-size: 90%, 80%;
+}
+
+section .article_rang_s:hover {
+    animation: card 2s forwards;
+}
+
+section .article_rang_nation {
+    background-image: url("images_page_rangs/hunter_rang_nation.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 25px 50px, center;
+    background-size: 88%, 80%;
+}
+
+section .article_rang_nation:hover {
+    animation: card 1s forwards;
+}
+
+section .titreNation {
+    padding-right: 30px;
+    padding-bottom: 75px;
+}
+
+.paragrapheNation {
+    padding: 20px 40px 80px 40px;
+}
+
+section .crunchy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 footer {
     display: flex;
     flex-direction: row;

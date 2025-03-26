@@ -107,6 +107,10 @@ section .image-button {
     cursor: pointer;
 }
 
+section .crunchy {
+    display: none;
+}
+
 
 
 footer {
