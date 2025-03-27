@@ -1,11 +1,16 @@
-body {
-    background-color: #7227e6;
-}
-
 :root {
     --main-color: black;
     --secondary-color: #C063EF;
     --text-color: white;
+}
+
+body {
+    background-color: black;
+}
+
+body main {
+    width: 360px;
+    margin: auto;
 }
 
 body header {
@@ -18,7 +23,6 @@ body header {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 1000;
 }
 
 /* Cache l'input */
@@ -68,7 +72,6 @@ body header {
     list-style: none;
     padding: 0;
     align-items: center;
-    color: white;
     /* margin-top: 200px; */
 }
 
@@ -87,125 +90,74 @@ body header {
     display: block;
 }
 
-.Boxbackground {
-    background-image: url(imageprojetSL/fondperso.svg);
-    background-repeat: no-repeat;
-}
-
-.carrousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 100vw;
-    overflow: hidden;
-    padding-top: 25px;
-}
-
-.carrousel-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
+.section-article {
+    background-image: url(image/image-general-versionMobile.png);
+    height: 222px;
+    width: 360px;
 
 }
 
-.carrousel {
-    display: flex;
-    padding: 0;
-    margin: 0;
-}
-
-.carrousel li {
-    flex: 0 0 33.3333%;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    box-sizing: border-box;
-}
-
-.carrousel img {
-    width: 100%;
-    height: auto;
-}
-
-.boxperso img {
-    object-fit: contain;
-    height: 100%;
-    width: 100%;
-}
-
-.Personnage {
-    margin-top: -280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Personnage img {
-    object-fit: contain;
-    width: 400px;
-
-
-}
-
-.texteperso {
-    width: 90%;
-    max-width: 400px;
-    margin-top: -70px;
+.section-h2 {
+    color: white;
+    width: 360px;
+    font-size: 35px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Inter;
-    color: blanchedalmond;
 }
 
-.texteperso>p {
-
-    padding: 25px;
-    background-color: black;
-    opacity: 0.5;
-}
-
-span {
-    font-weight: bold;
-}
-
-.youtube {
-    width: 90%;
-    max-width: 400px;
-    height: auto;
-    aspect-ratio: 16 / 9;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-#BoxBoutonTop {
-    padding-top: 20px;
+.article-histoire {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
     display: flex;
-    justify-content: center;
-    margin: auto;
-}
+    flex-direction: row;
+    justify-content: space-evenly;
 
-#BoxBoutonTop img {
-    transform: rotate(-90deg);
-}
-
-#topfooter {
-    width: 100%;
-    padding: 0;
-    margin-bottom: -4px;
 
 }
 
-.youtube-btn {
-    display: none;
+.article-histoire h2 {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.article-Personnages {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.article-Personnages h2 {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.article-Rangs-Chasseurs {
+    background-image: url(image/fond-alternatifversion-mobile.png);
+    width: 360px;
+    height: 172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.article-Rangs-Chasseurs h2 {
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
 }
 
 
@@ -222,6 +174,7 @@ footer .logos {
     justify-content: space-evenly;
     gap: 1.2rem;
     padding: 20px 0px;
+    width: 100%;
 }
 
 footer img {
@@ -237,6 +190,7 @@ footer p {
     align-items: center;
     justify-content: center;
     font-family: 'inter', sans-serif;
+
 }
 
 footer p#paragraphe1 {

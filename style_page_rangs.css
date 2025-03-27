@@ -1,0 +1,231 @@
+:root {
+    --main-color: black;
+    --secondary-color: #C063EF;
+    --text-color: white;
+}
+
+
+body header {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Cache l'input */
+#menu-toggle {
+    display: none;
+}
+
+/* Styles du bouton menu */
+.menu-btn {
+    /* position: fixed; */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url(logo-barNav.png) no-repeat center;
+    rotate: none;
+    /* right: 45px; */
+    /* font-size: 20px; */
+    background-size: cover;
+    cursor: pointer;
+    /* color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px; */
+}
+
+/* Styles du menu */
+#menu {
+    width: 30%;
+    display: none;
+    background: #333;
+    opacity: 70%;
+    color: white;
+    padding: 10px;
+    margin-top: 250px;
+    right: 0.1px;
+    text-align: right;
+    position: absolute;
+    /* z-index: 1001; */
+}
+
+#menu ul {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    color: white;
+    /* margin-top: 200px; */
+}
+
+#menu ul li {
+    display: flex;
+    padding: 5px 0;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Afficher le menu si la case est cochée */
+#menu-toggle:checked~#menu {
+    display: block;
+}
+
+section {
+    background-image: url("images_page_rangs/background_page_rangs_smartphone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-height: none;
+    height: auto;
+    padding: 50px 0px;
+    gap: 40px;
+}
+
+section h1 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: var(--text-color);
+    font-family: 'quantico', sans-serif;
+    padding: 45px 65px 130px 65px;
+}
+
+section .titreNation {
+    padding-right: 50px;
+    padding-bottom: 110px;
+}
+
+section p {
+    font-size: 11px;
+    color: var(--text-color);
+    font-family: 'inter', sans-serif;
+    font-style: italic;
+    line-height: 0.9rem;
+    padding: 0px 60px;
+}
+
+section article {
+    width: 300px;
+    height: 300px;
+}
+
+section .article_rang_e {
+    background-image: url("images_page_rangs/hunter_rang_E.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 40px, center;
+    background-size: 80%, 70%;
+}
+
+section .article_rang_d {
+    background-image: url("images_page_rangs/hunter_rang_D.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 40px, center;
+    background-size: 80%, 70%;
+}
+
+section .article_rang_c {
+    background-image: url("images_page_rangs/hunter_rang_C.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 40px, center;
+    background-size: 80%, 70%;
+}
+
+section .article_rang_b {
+    background-image: url("images_page_rangs/hunter_rang_B.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 40px, center;
+    background-size: 80%, 70%;
+}
+
+section .article_rang_a {
+    background-image: url("images_page_rangs/hunter_rang_A.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 40px, center;
+    background-size: 80%, 70%;
+}
+
+section .article_rang_s {
+    background-image: url("images_page_rangs/hunter_rang_S.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 40px, center;
+    background-size: 80%, 70%;
+}
+
+section .article_rang_nation {
+    background-image: url("images_page_rangs/hunter_rang_nation.png"), url("images_page_rangs/card.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 40px, center;
+    background-size: 80%, 70%;
+}
+
+section .image-button {
+    background-image: url("images_page_rangs/button_bas_de_page.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+}
+
+section .crunchy {
+    display: none;
+}
+
+
+
+footer {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1.2rem;
+    padding: 20px 0px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    color: var(--text-color);
+    font-size: 9px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'inter', sans-serif;
+}
+
+footer p#paragraphe1 {
+    padding-bottom: 10px;
+}
+
+footer p#paragraphe3 {
+    padding-bottom: 10px;
+}
