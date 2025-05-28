@@ -4,8 +4,6 @@
     --text-color: white;
 }
 
-
-/* Cache l'input */
 #menu-toggle {
     display: none;
 }
@@ -25,7 +23,6 @@
     position: fixed;
     right: 10px;
     z-index: 1001;
-
 }
 
 #menu {
@@ -35,7 +32,6 @@
     padding: 10px;
     z-index: 1000;
     margin: auto;
-
 }
 
 #menu ul {
@@ -50,12 +46,11 @@
 #menu ul li {
     display: flex;
     padding: 5px 0;
-
 }
 
 #menu ul li a {
-    color: var(--text-color);
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -95,7 +90,6 @@ section .article_rang_e {
     background-repeat: no-repeat, no-repeat;
     background-position: 10px 45px, center;
     background-size: 90%, 80%;
-
 }
 
 section .article_rang_e:hover {
@@ -192,7 +186,6 @@ section .crunchy {
     align-items: center;
     justify-content: center;
 }
-
 
 footer {
     display: flex;

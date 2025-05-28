@@ -4,7 +4,6 @@
     --text-color: white;
 }
 
-/* Cache l'input */
 #menu-toggle {
     display: none;
 }
@@ -24,7 +23,6 @@
     position: fixed;
     right: 10px;
     z-index: 1001;
-
 }
 
 #menu {
@@ -34,7 +32,6 @@
     padding: 50px;
     z-index: 1000;
     margin: auto;
-
 }
 
 #menu ul {
@@ -49,19 +46,13 @@
 #menu ul li {
     display: flex;
     padding: 5px 0;
-
 }
 
 #menu ul li a {
-    color: var(--text-color);
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1rem;
     text-decoration: none;
 }
-
-
-
-
-
 
 section:first-of-type {
     height: 600px;

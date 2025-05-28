@@ -25,30 +25,19 @@ body header {
     top: 0;
 }
 
-/* Cache l'input */
 #menu-toggle {
     display: none;
 }
 
-/* Styles du bouton menu */
 .menu-btn {
-    /* position: fixed; */
     display: inline-block;
     width: 40px;
     height: 40px;
     background: url(logo-barNav.png) no-repeat center;
     rotate: none;
-    /* right: 45px; */
-    /* font-size: 20px; */
-    background-size: cover;
-    cursor: pointer;
-    /* color: white;
-    padding: 10px 15px;
-    display: inline-block;
-    border-radius: 5px; */
+    font-size: 20px;
 }
 
-/* Styles du menu */
 #menu {
     width: 30%;
     display: none;
@@ -60,7 +49,6 @@ body header {
     right: 0.1px;
     text-align: right;
     position: absolute;
-    /* z-index: 1001; */
 }
 
 #menu ul {
@@ -72,7 +60,6 @@ body header {
     list-style: none;
     padding: 0;
     align-items: center;
-    /* margin-top: 200px; */
 }
 
 #menu ul li {
@@ -85,7 +72,6 @@ body header {
     text-decoration: none;
 }
 
-/* Afficher le menu si la case est cochée */
 #menu-toggle:checked~#menu {
     display: block;
 }
@@ -94,7 +80,6 @@ body header {
     background-image: url(image/image-general-versionMobile.png);
     height: 222px;
     width: 360px;
-
 }
 
 .section-h2 {
@@ -111,8 +96,6 @@ body header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-
 }
 
 .article-histoire h2 {
@@ -130,7 +113,6 @@ body header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .article-Personnages h2 {
@@ -138,7 +120,6 @@ body header {
     font-size: 1.5em;
     display: flex;
     align-items: center;
-
 }
 
 .article-Rangs-Chasseurs {
@@ -148,7 +129,6 @@ body header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .article-Rangs-Chasseurs h2 {
@@ -157,7 +137,6 @@ body header {
     display: flex;
     align-items: center;
     margin-left: 30px;
-
 }
 
 
@@ -190,7 +169,6 @@ footer p {
     align-items: center;
     justify-content: center;
     font-family: 'inter', sans-serif;
-
 }
 
 footer p#paragraphe1 {

@@ -18,30 +18,20 @@ body header {
     z-index: 1000;
 }
 
-/* Cache l'input */
 #menu-toggle {
     display: none;
 }
 
-/* Styles du bouton menu */
 .menu-btn {
-    /* position: fixed; */
     display: inline-block;
     width: 40px;
     height: 40px;
     background: url(logo-barNav.png) no-repeat center;
     rotate: none;
-    /* right: 45px; */
-    /* font-size: 20px; */
     background-size: cover;
     cursor: pointer;
-    /* color: white;
-    padding: 10px 15px;
-    display: inline-block;
-    border-radius: 5px; */
 }
 
-/* Styles du menu */
 #menu {
     width: 30%;
     display: none;
@@ -53,7 +43,6 @@ body header {
     right: 0.1px;
     text-align: right;
     position: absolute;
-    /* z-index: 1001; */
 }
 
 #menu ul {
@@ -66,7 +55,6 @@ body header {
     padding: 0;
     align-items: center;
     color: white;
-    /* margin-top: 200px; */
 }
 
 #menu ul li {
@@ -79,7 +67,6 @@ body header {
     text-decoration: none;
 }
 
-/* Afficher le menu si la case est cochée */
 #menu-toggle:checked~#menu {
     display: block;
 }

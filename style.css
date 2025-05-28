@@ -4,7 +4,6 @@
     --text-color: white;
 }
 
-
 body header {
     background-color: black;
     width: 100%;
@@ -17,12 +16,10 @@ body header {
     top: 0;
 }
 
-/* Cache l'input */
 #menu-toggle {
     display: none;
 }
 
-/* Styles du bouton menu */
 .menu-btn {
     display: inline-block;
     width: 40px;
@@ -38,20 +35,15 @@ body header {
     position: fixed;
     right: 10px;
     z-index: 1001;
-
 }
 
-/* Styles du menu  */
 #menu {
     width: 60%;
     display: none;
-    /* background: #333; */
-    /* opacity: 40%; */
     color: white;
     padding: 10px;
     z-index: 1000;
     margin: auto;
-
 }
 
 #menu ul {
@@ -74,12 +66,9 @@ body header {
     text-decoration: none;
 }
 
-/* Afficher le menu si la case est cochée */
 #menu-toggle:checked~#menu {
     display: block;
 }
-
-/* fin du code sur la barre de nav */
 
 main {
     background-color: black;
@@ -89,8 +78,8 @@ main {
     background-image: url(image/image-general-desktop.png);
     background-size: cover;
     width: 100%;
-    /* width: 100vw; */
     height: 100vh;
+    margin-top: 150px;
 }
 
 .section-h2 {
@@ -112,8 +101,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-
 }
 
 .article-histoire h2 {
@@ -121,7 +108,6 @@ main {
     font-size: 3em;
     display: flex;
     align-items: center;
-
 }
 
 .article-Personnages {
@@ -132,7 +118,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .article-Personnages h2 {
@@ -140,7 +125,6 @@ main {
     font-size: 3em;
     display: flex;
     align-items: center;
-
 }
 
 .article-Rangs-Chasseurs {
@@ -151,7 +135,6 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .article-Rangs-Chasseurs h2 {
@@ -159,8 +142,6 @@ main {
     font-size: 3em;
     display: flex;
     align-items: center;
-
-
 }
 
 
@@ -189,7 +170,6 @@ footer img {
 footer .paragraphes {
     display: flex;
     flex-direction: column;
-
 }
 
 footer p {
